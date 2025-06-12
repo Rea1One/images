@@ -131,9 +131,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mybVQWc4OZ3fKwiOhGIq-34" value="matmul" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" parent="mybVQWc4OZ3fKwiOhGIq-33" vertex="1" connectable="0">
+        <mxCell id="mybVQWc4OZ3fKwiOhGIq-34" value="mm2_nn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" parent="mybVQWc4OZ3fKwiOhGIq-33" vertex="1" connectable="0">
           <mxGeometry x="0.5754" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mybVQWc4OZ3fKwiOhGIq-31" value="S (fp8)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
@@ -173,8 +173,10 @@
         <mxCell id="BgdMvV_QzVK2gBZ572UN-9" value="V(fp8)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
           <mxGeometry x="374" y="169" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cTskQ7qRXWbrz10uYlWH-1" value="matmul" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="210" y="340" as="geometry" />
+        <mxCell id="cTskQ7qRXWbrz10uYlWH-1" value="mm2_nt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="220" y="343" as="geometry">
+            <mxPoint x="-10" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
